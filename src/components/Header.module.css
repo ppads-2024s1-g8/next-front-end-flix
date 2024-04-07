@@ -1,0 +1,33 @@
+.header {
+    background: var(--gray-800);
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 1.25rem;
+}
+
+.header img {
+    height: 2rem;
+    margin-right: 0.5rem;
+}
+
+.header strong {
+    font-size: 1.5rem;
+}
+
+searchContainer {
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+
+.moviewrapper {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.25rem
+}
+
+.moviewrapper input {
+    width: 20%;
+    color: black;
+    border-radius: 8px;
+}
