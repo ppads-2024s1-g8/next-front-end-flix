@@ -3,10 +3,9 @@ import { Header } from "src/components/Header/Header";
 
 export default function Home() {
   return (
-        <>
-            <Header />
+        <div>
             <h2>Hello World</h2>
             <p>Home</p>
-        </>
+        </div>
     );
 }
