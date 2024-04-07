@@ -1,10 +1,10 @@
 import styles from './Header.module.css'
+import Image from "next/image";
 
-import flixLogo from '../assets/react.svg';
 export function Header() {
     return (
         <header className={styles.header}>
-            <img src={flixLogo} alt="Logotipo do Flix" />
+            <Image src="/react.svg" width={35} height={15} alt="Logotipo do Flix"/>
             <strong>Flix</strong>
             {/*
             <section className={styles.searchContainer}>
