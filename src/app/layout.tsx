@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
+import { Header } from "../components/Header/Header.jsx";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -16,7 +17,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={nunito.className}>{children}</body>
+      <body>
+        <Header/>
+        <main>
+          {children}
+        </main>
+        <footer>Footer</footer>
+      </body>
     </html>
   );
 }
