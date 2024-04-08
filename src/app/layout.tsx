@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import { Header } from "../components/Header/Header.jsx";
+import { Footer } from "../components/Footer/Footer.jsx";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -22,7 +23,7 @@ export default function RootLayout({
         <main>
           {children}
         </main>
-        <footer>Footer</footer>
+        <Footer />
       </body>
     </html>
   );
