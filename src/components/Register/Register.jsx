@@ -13,7 +13,7 @@ export function Register() {
                 <h1><strong>Sua senha</strong></h1>
                     <textarea required></textarea>
                 <footer>
-                    <button><strong>Entrar na plataforma</strong></button>
+                    <button><strong><a href='http://localhost:3000/user/profile/1'>Entrar na plataforma</a></strong></button>
                     <h4>Esqueceu sua senha?</h4>
                     <h4>Não possui conta? Crie uma agora!</h4>
                 </footer>

@@ -1,0 +1,67 @@
+.registerForm {
+    display: none;
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--gray-600);
+}
+
+.registerOp {
+    list-style: none;
+    cursor: pointer;
+}
+
+.registerForm input {
+    width: 40%;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+    background: var(--gray-800);
+    border: 0;
+    resize: none;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: var(--gray-100);
+}
+
+.registerForm strong {
+    line-height: 1.6;
+    color: var(--gray-100);
+}
+
+.registerForm footer {
+    visibility: hidden;
+    max-height: 0;
+}
+
+.registerForm.active {
+    display: block;
+}
+
+.registerForm:focus-within footer {
+    visibility: visible;
+    max-height: none;
+}
+
+.registerForm button[type=submit] {
+    padding: 0.5rem 0.75rem;
+    margin-top: 1rem;
+    border-radius: 8px;
+    border: 0;
+    background: var(--green-500);
+    color: var(--white);
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+    .registerForm button[type=submit]:hover {
+        background: var(--green-300);
+    }
+
+.queryForm {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--gray-600);
+}
