@@ -1,5 +1,11 @@
 .main {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 34px;
+    padding: 35px;
+}
+
+.user {
+    display: block;
+    margin-top: 40px;
 }
