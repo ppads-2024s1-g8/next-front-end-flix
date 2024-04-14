@@ -1,3 +1,5 @@
+'use client'
+
 import { ReactNode } from 'react'
 import { Header } from '../../components/Header/Header'
 import { UsersList } from 'src/components/DashBoard/users-list'
