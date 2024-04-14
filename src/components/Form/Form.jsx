@@ -22,10 +22,10 @@ export function Form() {
                 </li>
             </ul>
             <form className={`${styles.registerForm} ${showForm ? styles.active : ''}`}>
-                <input onClick={handleInputClick} placeholder="T�tulo" />
+                <input onClick={handleInputClick} placeholder="Título" />
                 <input onClick={handleInputClick} placeholder="Diretor" />
                 <input onClick={handleInputClick} placeholder="Elenco principal" />
-                <input onClick={handleInputClick} placeholder="Pa�s" />
+                <input onClick={handleInputClick} placeholder="País" />
                 <input onClick={handleInputClick} placeholder="Ano" />
                 <footer>
                     <button type="submit">Enviar</button>
