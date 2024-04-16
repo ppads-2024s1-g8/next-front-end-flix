@@ -27,8 +27,9 @@
 
     background-color: var(--gray-800);
     resize: none;
-    outline: unset;
+    box-shadow: none;
 
+    border: 0;
     border-radius: 5px;
     
     width: 100%;
@@ -38,12 +39,15 @@
     line-height: 1.4;
     margin-top: 0.5rem;
 
+    cursor: pointer;
+
 }
 
 .form button {
 
-    color: var(--white);
-    background-color: var(--cyan-500);
+    color: var(--cyan-300);
+    background-color: transparent;
+    border: 1px solid var(--cyan-500);
     border-radius: 5px;
     width: 100%;
 
@@ -55,6 +59,7 @@
 
 .form button:hover {
     background-color: var(--cyan-300);
+    color: var(--white);
 }
 
 .form footer h4 {
@@ -62,4 +67,8 @@
     align-items: center;
     justify-content: center;
     text-decoration: underline;
+}
+
+.footerLinks {
+    margin-top: 10px;
 }

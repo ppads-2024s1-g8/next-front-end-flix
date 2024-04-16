@@ -21,6 +21,7 @@ export function Register() {
                             Entrar na plataforma
                         </Link>
                     </strong></button>
+                <div className={styles.footerLinks}>
                     <h4>
                         <Link href="http://localhost:">
                         Esqueceu sua senha?
@@ -31,6 +32,7 @@ export function Register() {
                         Não possui conta? Crie uma agora!
                         </Link>
                     </h4>
+                </div>
                 </footer>
             </form>
         </div>
