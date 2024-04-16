@@ -1,7 +1,10 @@
-import Image from "next/image";
+import { Register } from '../../../components/Register/Register';
 
 export default function SignUp() {
   return (
-    <h2>Sign Up</h2>
+    <div>
+      <h2>Sign Up</h2>
+      <Register/>
+    </div>
   );
 }

@@ -1,10 +1,13 @@
-import Image from "next/image";
+import { Register } from '../../../components/Register/Register';
 
 export default async function SignIn() {
 
   await new Promise((resolve) => setTimeout(resolve, 2000))
 
   return (
-    <div>Sign in</div>
+    <div>
+      <div>Sign in</div>
+      <Register/>
+    </div>
   );
 }

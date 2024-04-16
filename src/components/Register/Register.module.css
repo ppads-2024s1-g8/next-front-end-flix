@@ -12,6 +12,8 @@
 }
 
 .title {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 
@@ -25,6 +27,7 @@
 
     background-color: var(--gray-800);
     resize: none;
+    outline: unset;
 
     border-radius: 5px;
     
@@ -34,6 +37,7 @@
     padding: 5px;
     line-height: 1.4;
     margin-top: 0.5rem;
+
 }
 
 .form button {
