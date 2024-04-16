@@ -1,14 +1,10 @@
 .form {
+    display: flex;
     margin: 0 auto;
     align-items: center;
     justify-content: center;
-    width: 50%;
-}
-
-.form form {
-    margin: 0 auto;
-    width: 50%;
-    display: block;
+    width: 20%;
+    height: 100%;
 }
 
 .title {
@@ -17,7 +13,6 @@
     align-items: center;
     justify-content: center;
 
-    width: 100%;
     margin: 0 auto;
     margin-bottom: 1rem;
 
@@ -60,6 +55,7 @@
 .form button:hover {
     background-color: var(--cyan-300);
     color: var(--white);
+    transition: background-color 0.3s;
 }
 
 .form footer h4 {
