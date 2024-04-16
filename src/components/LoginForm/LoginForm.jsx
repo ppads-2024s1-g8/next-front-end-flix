@@ -10,11 +10,11 @@ export function Register() {
                 <h1><strong>Sua senha</strong></h1>
                     <textarea required></textarea>
                 <footer>
-                    <button><strong>
+                    <button>
                         <Link href='/user/profile/1'>
                             Entrar na plataforma
                         </Link>
-                    </strong></button>
+                    </button>
                 <div className={styles.footerLinks}>
                     <h4>
                         <Link href="http://localhost:">

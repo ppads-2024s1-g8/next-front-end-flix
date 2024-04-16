@@ -24,6 +24,6 @@
       "@/public/*": ["/public/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Form/Form.jsx", "src/components/Header/Header.jsx", "src/components/Sidebar/Sidebar.jsx", "src/components/UserMain/UserMain.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/components/Form/Form.jsx", "src/components/Header/Header.jsx", "src/components/Sidebar/Sidebar.jsx", "src/components/UserMain/UserMain.jsx", "src/components/RegisterForm/RegisterForm.jsx"],
   "exclude": ["node_modules"]
 }

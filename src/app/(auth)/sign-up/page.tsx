@@ -11,7 +11,6 @@ export default function SignUp() {
         <strong><h1>Flix App</h1></strong>
         <p>Preencha os campos e crie sua conta!</p>
       </div>
-      <Register/>
     </div>
   );
 }
