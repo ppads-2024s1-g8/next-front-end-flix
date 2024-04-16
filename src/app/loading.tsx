@@ -1,13 +1,11 @@
 'use client'
 
-import  FadeLoader from "react-spinners/FadeLoader";
+import { Loading } from '../components/Loading/Loading';
 
-export default function CatalogLoading() { 
+export default function HomeLoading() { 
     return (
-        <>
-            <p>Carregando Página...</p>
-
-            <FadeLoader color="#40D8F7"/>
-        </>
+        <div>
+            <Loading/>
+        </div>
     ) 
 }

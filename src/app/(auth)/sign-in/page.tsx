@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Register } from '../../../components/LoginForm/LoginForm';
 import styles from '../../../components/LoginForm/LoginForm.module.css';
+import { Register } from '../../../components/LoginForm/LoginForm';
 
 export default async function SignIn() {
 
