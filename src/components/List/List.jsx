@@ -6,11 +6,11 @@ import styles from './List.module.css'
 
 export function List() {
 
-    const [showForm, setShowForm] = useState(false);
+    // const [showForm, setShowForm] = useState(false);
 
-    function handleSelectOption() {
-        setShowForm(!showForm);
-    }
+    // function handleSelectOption() {
+    //     setShowForm(!showForm);
+    // }
 
     function handleInputClick(event) {
         event.stopPropagation();
@@ -18,17 +18,12 @@ export function List() {
     
     return (
         <div>
-            <ul className={styles.registerOp}>
-                <li onClick={handleSelectOption} className="bi bi-caret-right">
-                    <strong>Exibir minha Lista</strong>
-                </li>
-            </ul>
-            <form className={`${styles.registerForm} ${showForm ? styles.active : ''}`}>
-                <input onClick={handleInputClick} placeholder="Título" />
-                <input onClick={handleInputClick} placeholder="Diretor" />
-                <input onClick={handleInputClick} placeholder="Elenco principal" />
-                <input onClick={handleInputClick} placeholder="País" />
-                <input onClick={handleInputClick} placeholder="Ano" />
+            <form className={styles.registerForm}>
+                <input onClick={handleInputClick} placeholder="Título" required/>
+                <input onClick={handleInputClick} placeholder="Diretor" required/>
+                <input onClick={handleInputClick} placeholder="Elenco principal" required/>
+                <input onClick={handleInputClick} placeholder="País" required/>
+                <input onClick={handleInputClick} placeholder="Ano" required/>
                 <footer>
                     <button type="submit">Enviar</button>
                 </footer>

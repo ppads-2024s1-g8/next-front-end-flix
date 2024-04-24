@@ -6,7 +6,6 @@ import styles from './UserMain.module.css';
 export function UserMain(){
     return (
         <div className={styles.main}>
-            <Sidebar/>
             <div className={styles.user}>
                 <Form />
                 <List />
