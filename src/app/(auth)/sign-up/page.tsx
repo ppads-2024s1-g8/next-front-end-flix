@@ -1,4 +1,4 @@
-import { Register } from '../../../components/LoginForm/LoginForm';
+import { Register } from '../../../components/login/LoginForm/LoginForm';
 import Image from "next/image";
 import styles from '../../../components/LoginForm/LoginForm.module.css';
 
