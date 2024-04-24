@@ -7,7 +7,6 @@ export function UserMain(){
     return (
         <div className={styles.main}>
             <div className={styles.user}>
-                <Form />
                 <List />
             </div>
         </div>

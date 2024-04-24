@@ -28,7 +28,7 @@ export function Form() {
                 <input onClick={handleInputClick} required placeholder="País" />
                 <input onClick={handleInputClick} required placeholder="Ano" />
                 <footer>
-                    <button type="submit">Enviar</button>
+                    <button type="submit">Cadastrar</button>
                 </footer>
             </form>
         </div>
