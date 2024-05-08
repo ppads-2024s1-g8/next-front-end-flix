@@ -1,4 +1,6 @@
+import { Sidebar } from "src/components/Sidebar/Sidebar";
 import { Header } from "../../../../components/Header/Header";
+import { List } from "src/components/List/List";
 
 interface UserProps {
     params: {
@@ -12,7 +14,7 @@ export default async function UserProfile(props:any) {
 
   return (
     <div>
-        oi
+        <List/>
     </div>
   );
 }
