@@ -7,6 +7,7 @@ export function UserMain(){
     return (
         <div className={styles.main}>
             <div className={styles.user}>
+                <Sidebar/>
                 <List />
             </div>
         </div>

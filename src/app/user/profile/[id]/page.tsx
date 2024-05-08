@@ -12,7 +12,7 @@ export default async function UserProfile(props:any) {
 
   return (
     <div>
-        <Header/>
+        oi
     </div>
   );
 }
