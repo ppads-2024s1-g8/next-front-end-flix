@@ -46,7 +46,7 @@ export function TitlesList() {
     return (
         <div className='flex flex-col gap-4'> 
             <div className="flex gap-3 items-center">
-                <h1 className="text-2xl font-bold">Participants</h1>
+                <h1 className="text-2xl font-bold">Filmes</h1>
                     <div className="px-3 w-72 py-1.5 border border-white/10 rounded-lg text-sm flex items-center gap-3">
                         <Search className="size-4 text-emerald-300"/>
                         <input onChange={onSearchInputChanged} className="bg-transparent flex-1 outline-none" placeholder="Buscar Participante..."/>
@@ -60,8 +60,8 @@ export function TitlesList() {
                             <TableHeader style={{ width: 48 }}>
                                 <input type='checkbox' className='size-4 bg-black/20 rounded-md border border-white/10  checked:bg-orange-400'/>
                             </TableHeader>
-                            <TableHeader>Código</TableHeader>
-                            <TableHeader>Participants</TableHeader>
+                            <TableHeader>Nome</TableHeader>
+                            <TableHeader>Comentário</TableHeader>
                             <TableHeader>Data de inscrição</TableHeader>
                             <TableHeader>Data do check-in</TableHeader>
                             <TableHeader style={{ width: 64 }}></TableHeader>

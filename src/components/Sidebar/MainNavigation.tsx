@@ -9,7 +9,7 @@ import {
    export function MainNavigation() {
      return (
        <nav className="space-y-0.5">
-         <NavItem title="Home" icon={Home} />
+         <NavItem title="Home" icon={Home}  />
          <NavItem title="Filmes" icon={Film} />
          <NavItem title="Livros" icon={Book} />
          <NavItem title="Séries" icon={Popcorn} />
