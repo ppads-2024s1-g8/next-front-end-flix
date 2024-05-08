@@ -5,7 +5,7 @@ import { Sidebar } from "src/components/Sidebar/Sidebar";
 export default function UserLayout({ children} : {children: ReactNode }){
     return (
         <div>
-            <div className="grid min-h-screen grid-cols-app">
+            <div className="grid grid-cols-app">
                 <Sidebar/>
                 <div className="px-4 pb-12 pt-8 border-2 border-fuchsia-600">
                     {children}
